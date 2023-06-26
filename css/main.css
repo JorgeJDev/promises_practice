@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tablacont {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+    max-width: 800px
+}
+
+.tablacont th, .tablacont td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.tablacont th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+#listaErrores {
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+#formulario {
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    max-width: 800px
+}
+
+#listaErrores {
+    margin: 10px 0 10px 200px;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: navy;
+}
+
+#vaciar button {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  #formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  input[type="text"] {
+    width: calc(50% - 5px);
+  }
+
+  input[type="submit"] {
+    width: calc(50% - 5px);
+  }
+
+  
+}
+
+
+
+
+
